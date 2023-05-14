@@ -593,8 +593,11 @@ height: 88px;
 
 .footer-div {
   align-items: baseline;
+  display: flex;
 }
-
+.social-list-icon-footer{
+  fill:#f4f4fd;
+}
 .social-list-footer{
    display: flex;
   gap: 16px;
@@ -624,5 +627,5 @@ height: 88px;
 .footer-page-logo{
   display: flex;
    margin-right: 120px;
-   
+
 }
