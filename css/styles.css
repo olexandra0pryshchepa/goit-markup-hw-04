@@ -621,3 +621,8 @@ height: 88px;
   height: 40px;
 }
 
+.footer-page-logo{
+  display: flex;
+   margin-right: 120px;
+   
+}
