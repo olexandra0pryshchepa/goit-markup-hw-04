@@ -127,6 +127,7 @@ color: #4D5AE5;
   max-width: 1440px; 
   background-repeat: no-repeat;
   background-position: center;
+  margin: 0 auto;
 }
 
 .hero-title {
@@ -361,14 +362,14 @@ body {
 }
 
 .main-header{
-  border-bottom: 1px solid #e7e9fc;
   display: flex;
   padding: 24px 0;
-  box-shadow:  0px 2px 1px
-   rgba(46, 47, 66, 0.08),
-   0px 1px 1px rgba(46, 47, 66, 0.16),
-    0px 1px 6px rgba(46, 47, 66, 0.08); 
+  border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
+
+
+
 
 .main-header-container{
     display: flex;
@@ -413,6 +414,16 @@ body {
 .page-logo-footer{
   display: inline-block;
     margin-bottom: 16px;
+    font-family: "Raleway",sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+ display: flex;
+    align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4D5AE5;
     
 }
 .span-logo-footer{
@@ -598,11 +609,11 @@ height: 88px;
 .social-list-icon-footer{
   fill:#f4f4fd;
 }
+
 .social-list-footer{
-   display: flex;
+  display: flex;
   gap: 16px;
 }
-
 .social-list-link-footer{
    display: flex;
   align-items: center;
@@ -625,7 +636,6 @@ height: 88px;
 }
 
 .footer-page-logo{
-  display: flex;
    margin-right: 120px;
 
 }
